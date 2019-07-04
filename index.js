@@ -15,13 +15,16 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  console.log (`I can\'t hear you!`); if (string.toLowerCase)()
+  if (string.toLowerCase)()
+  console.log (`I can\'t hear you!`)
 }
 
 function sayHiToGrandma(string) {
-  console.log (`YES INDEED!`); if (string.toUpperCase)()
+  if (string.toUpperCase)()
+  console.log (`YES INDEED!`)
 }
 
 function sayHiToGrandma(string) {
-  console.log (`I love you, too.`); if (string.undefined)(console.log (`I love you, Grandma.`))
+  if (string.undefined)(console.log (`I love you, Grandma.`))
+  console.log (`I love you, too.`)
 }
