@@ -1,4 +1,4 @@
-var = "string"
+var string
 
 function shout(string) {
   return string.toUpperCase()
