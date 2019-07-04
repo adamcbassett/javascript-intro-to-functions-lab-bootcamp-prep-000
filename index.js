@@ -1,18 +1,3 @@
-let server
-before(function(done) {
-  this.enableTimeouts(false)  <----
-  server = require('../app')
-  server.initialize()
-    .then(() => {
-      console.info('listening on', process.env.PORT)
-      server.listen(process.env.PORT, done)
-    })
-    .catch(err => {
-      console.log(err)
-      done(err)
-    })
-})
-
 function shout(string) {
   return string.toUpperCase()
 }
