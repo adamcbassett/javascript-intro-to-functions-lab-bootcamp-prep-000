@@ -18,11 +18,11 @@ function sayHiToGrandma(string) {
   if (string.LowerCase)
   console.log (`I can\'t hear you!`)
 
-else if sayHiToGrandma(string) {
-  if (string.UpperCase)
+else if (string.UpperCase)
   console.log (`YES INDEED!`)
 
-else if sayHiToGrandma(string) {
-  if (string.undefined)(console.log (`I love you, Grandma.`))
+else if (string.undefined)(console.log (`I love you, Grandma.`))
+  
+  
   console.log (`I love you, too.`)
 }
